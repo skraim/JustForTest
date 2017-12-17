@@ -2,6 +2,7 @@ package collections;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 
 public class Test4 {
     public static void main(String[] args) {
@@ -12,6 +13,8 @@ public class Test4 {
         map.put(new A(3), 3);
 
         System.out.println(map);
+        Properties m = System.getProperties();
+        System.out.println(m);
     }
 
 }
